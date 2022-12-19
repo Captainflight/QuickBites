@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import axios from 'axios';
 
 const FeatureList = [
   {
@@ -34,6 +35,28 @@ const FeatureList = [
     ),
   },
 ];
+
+class MyComponent extends React.Component {
+  state = {
+    data: null
+  };
+
+  componentDidMount() {
+    axios.get('/api/my-endpoint')
+      .then(response => {
+        this.setState({ data: response.data });
+      });
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.data && <p>{this.state.data.message}</p>}
+      </div>
+    );
+  }
+}
+
 
 function Feature({Svg, title, description}) {
   return (
