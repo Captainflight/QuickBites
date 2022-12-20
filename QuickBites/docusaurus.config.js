@@ -69,7 +69,10 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Scrap2', position: 'left'},
+          {to: '/blog', label: 'About us', position: 'left'},
+          {to: '/blog', label: 'Articles', position: 'left'},
+          {to: '/blog', label: 'Infinite Flight Herald', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
