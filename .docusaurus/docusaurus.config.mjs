@@ -48,12 +48,6 @@ export default {
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "to": "/blog",
           "label": "Scrap2",
           "position": "left"
@@ -84,15 +78,6 @@ export default {
     "footer": {
       "style": "dark",
       "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
         {
           "title": "Community",
           "items": [
