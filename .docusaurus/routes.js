@@ -38,6 +38,16 @@ export default [
     exact: true
   },
   {
+    path: '/About-Us',
+    component: ComponentCreator('/About-Us', '56d'),
+    exact: true
+  },
+  {
+    path: '/Articles',
+    component: ComponentCreator('/Articles', '72e'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'a09'),
     exact: true
@@ -90,6 +100,11 @@ export default [
   {
     path: '/blog/welcome',
     component: ComponentCreator('/blog/welcome', 'c57'),
+    exact: true
+  },
+  {
+    path: '/IFH',
+    component: ComponentCreator('/IFH', '7f5'),
     exact: true
   },
   {

@@ -673,6 +673,25 @@
   "docusaurus-plugin-content-pages": {
     "default": [
       {
+        "type": "mdx",
+        "permalink": "/About-Us",
+        "source": "@site/src/pages/About-Us.md",
+        "description": "Hi",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
+        "permalink": "/Articles",
+        "source": "@site/src/pages/Articles.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
+        "permalink": "/IFH",
+        "source": "@site/src/pages/IFH.md",
+        "frontMatter": {}
+      },
+      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"

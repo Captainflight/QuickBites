@@ -65,9 +65,9 @@ const config = {
         items: [
 
           {to: '/blog', label: 'Scrap2', position: 'left'},
-          {to: '/blog', label: 'About us', position: 'left'},
-          {to: '/blog', label: 'Articles', position: 'left'},
-          {to: '/blog', label: 'Infinite Flight Herald', position: 'left'},
+          {to: '/About-Us', label: 'About us', position: 'left'},
+          {to: '/Articles', label: 'Articles', position: 'left'},
+          {to: '/IFH', label: 'Infinite Flight Herald', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

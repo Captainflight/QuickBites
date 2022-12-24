@@ -53,17 +53,17 @@ export default {
           "position": "left"
         },
         {
-          "to": "/blog",
+          "to": "/About-Us",
           "label": "About us",
           "position": "left"
         },
         {
-          "to": "/blog",
+          "to": "/Articles",
           "label": "Articles",
           "position": "left"
         },
         {
-          "to": "/blog",
+          "to": "/IFH",
           "label": "Infinite Flight Herald",
           "position": "left"
         },
